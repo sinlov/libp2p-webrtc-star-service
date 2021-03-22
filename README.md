@@ -17,8 +17,8 @@
 ```sh
 docker run --rm \
   --name star-signal \
-  --port 9090:9090
-  sinlov/libp2p-webrtc-star-service:latest \
+  -p 9090:9090 \
+  sinlov/libp2p-webrtc-star-service:latest
 ```
 
 ## docker-compose
