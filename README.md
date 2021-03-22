@@ -1,12 +1,16 @@
-# What is libp2p-webrtc-star-service
+# libp2p-webrtc-star-service
+
+[![docker build](https://img.shields.io/docker/cloud/build/sinlov/libp2p-webrtc-star-service)](https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service)
+[![docker version semver](https://img.shields.io/docker/v/sinlov/libp2p-webrtc-star-service?sort=semver)](https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service/tags?page=1&ordering=last_updated)
+[![docker image size](https://img.shields.io/docker/image-size/sinlov/libp2p-webrtc-star-service)](https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service)
 
 - docker hub see https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service
 - this is fast way to run https://www.npmjs.com/package/libp2p-webrtc-star
 
 ## libp2p-webrtc-star
 
-source https://github.com/libp2p/js-libp2p-webrtc-star
-document https://www.npmjs.com/package/libp2p-webrtc-star
+- source https://github.com/libp2p/js-libp2p-webrtc-star
+- document https://www.npmjs.com/package/libp2p-webrtc-star [![NPM Version](http://img.shields.io/npm/v/libp2p-webrtc-star.svg?style=flat)](https://www.npmjs.org/package/libp2p-webrtc-star)
 
 ## fast use
 
@@ -29,7 +33,7 @@ networks:
 services:
   star-signal:
     container_name: 'star-signal'
-    image: sinlov/libp2p-webrtc-star-service # https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service
+    image: sinlov/libp2p-webrtc-star-service:0.21.2 # https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service/tags?page=1&ordering=last_updated
     ports:
       - '9090:9090'
     environment:
