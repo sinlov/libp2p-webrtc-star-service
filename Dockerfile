@@ -11,8 +11,8 @@ RUN apk add --no-cache -U \
   libc-dev \
   gcc \
   g++ \
-  python3 && \
-  npm install --global libp2p-webrtc-star
+  python3
+RUN npm install --global libp2p-webrtc-star
 
 WORKDIR /usr/src/myapp
 
