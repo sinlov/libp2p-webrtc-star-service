@@ -13,7 +13,7 @@ RUN apk add --no-cache -U \
   libc-dev \
   gcc \
   g++ \
-  python3 \
+  python3 && \
   npm install --global libp2p-webrtc-star@0.21.2
 
 # RUN npm install --global --registry=https://registry.npm.taobao.org libp2p-webrtc-star@0.21.2
