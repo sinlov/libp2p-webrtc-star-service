@@ -33,7 +33,7 @@ networks:
 services:
   star-signal:
     container_name: 'star-signal'
-    image: sinlov/libp2p-webrtc-star-service:0.21.2 # https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service/tags?page=1&ordering=last_updated
+    image: sinlov/libp2p-webrtc-star-service:0.21.2-alpine # https://hub.docker.com/r/sinlov/libp2p-webrtc-star-service/tags?page=1&ordering=last_updated
     ports:
       - '9090:9090'
     environment:
